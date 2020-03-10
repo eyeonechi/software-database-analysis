@@ -1,0 +1,13 @@
+SET SQL_SAFE_UPDATES = 0;
+
+DELETE FROM OrderLineItem;
+DELETE FROM `Order`;
+DELETE FROM Spatula;
+DELETE FROM Licence;
+DELETE FROM Software;
+DELETE FROM Platform;
+DELETE FROM ConsumerLocation;
+DELETE FROM Consumer;
+DELETE FROM Location;
+
+SET SQL_SAFE_UPDATES = 1;
